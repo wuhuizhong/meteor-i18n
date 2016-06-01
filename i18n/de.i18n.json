@@ -1,0 +1,13 @@
+{
+  "events": {
+    "location": "Veranstaltungsort"
+  },
+  "pages": {
+    "general": "Allgemein",
+    "company": "Betrieb",
+    "address": "Adresse"
+  },
+  "shared": {
+    "contact": "Kontakt"
+  }
+}

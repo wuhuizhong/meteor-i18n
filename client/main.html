@@ -1,0 +1,60 @@
+<head>
+  <title>i18n-monitor-test-app</title>
+</head>
+
+<body>
+  <h1>anti:i18n - Test translations</h1>
+  <table>
+    <tr>
+      <th>Module</th>
+      <th>Label</th>
+      <th>Translation</th>
+    </tr>
+    <tr>
+      <td>shared</td>
+      <td>contact</td>
+      <td>{{i18n 'shared.contact'}}</td>
+    </tr>
+    <tr>
+      <td>events</td>
+      <td>location</td>
+      <td>{{i18n 'events.location'}}</td>
+    </tr>
+    <tr>
+      <td>pages</td>
+      <td>general</td>
+      <td>{{i18n 'pages.general'}}</td>
+    </tr>
+  </table>
+
+  <h1>tap:i18n - Test translations</h1>
+  <table>
+    <tr>
+      <th>Module</th>
+      <th>Label</th>
+      <th>Translation</th>
+    </tr>
+    <tr>
+      <td>shared</td>
+      <td>contact</td>
+      <td>{{_ 'shared.contact'}}</td>
+    </tr>
+    <tr>
+      <td>events</td>
+      <td>location</td>
+      <td>{{_ 'events.location'}}</td>
+    </tr>
+    <tr>
+      <td>pages</td>
+      <td>general</td>
+      <td>{{_ 'pages.general'}}</td>
+    </tr>
+  </table>
+
+  {{>languageSelector}}
+</body>
+
+<template name="languageSelector">
+  <h4>Select another language</h4><br>
+  <a href="" class="btn" data-lang="de">DE</a> | <a href="" class="btn" data-lang="fr">FR</a> | <a href="" class="btn" data-lang="it">IT</a>
+</template>

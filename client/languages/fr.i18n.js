@@ -1,0 +1,1 @@
+i18n.map('fr', JSON.parse('{"events":{"location":"Lieu de l\'événement"},"pages":{"general":"Informations générales","company":"Entreprise","address":"Adresse"},"shared":{"contact":"Contact"}}'));
