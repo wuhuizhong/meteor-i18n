@@ -3,7 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
-let locale = 'de';
+let locale = 'zh-CN';
 
 /**
  * anti:i18n setup
@@ -14,9 +14,10 @@ i18n.setLanguage(locale);
 import './languages/de.i18n';
 import './languages/fr.i18n';
 import './languages/it.i18n';
+import './languages/zh-CN.i18n';
 
 /**
- * anti:i18n setup
+ * tap:i18n setup
  */
 TAPi18n.setLanguage(locale);
 

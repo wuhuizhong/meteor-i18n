@@ -1,0 +1,14 @@
+{
+  "language": "简体中文",
+  "events": {
+    "location": "本地"
+  },
+  "pages": {
+    "general": "一般",
+    "company": "公司",
+    "address": "地址"
+  },
+  "shared": {
+    "contact": "联络方式"
+  }
+}
